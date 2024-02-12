@@ -1,0 +1,91 @@
+// Import All External Links
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+    // font-family: 'Spartan', sans-serif;
+
+
+
+// Declear All Variables
+$font-spartan: 'Spartan', sans-serif;
+$black-color: #222;
+$secondary-color: #465b52;
+$gray-color: #e3e6f3;
+$nav-link-color: #1a1a1a;
+$nav-hover-color: rgb(8, 129, 120);
+$product-brand-color: #606063;
+$product-add-cart-color: #e8f6ea;
+$orange-color: #ec544e;
+
+
+
+
+
+
+
+// All Genarel Reset Codes
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: $font-spartan;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    width: 100%;
+}
+
+.body{
+    width: 100%;
+}
+
+h1{
+    font-size: 5rem;
+    line-height: 6.4rem;
+    color: $black-color;
+}
+
+h2{
+    font-size: 4.6rem;
+    line-height: 5.4rem;
+    color: $black-color;
+}
+
+h4{
+    font-size: 2rem;
+    color: $black-color;
+}
+
+h6{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+p{
+    font-size: 1.6rem;
+    color: $secondary-color;
+}
+
+.section-p1{
+    padding: 4rem 8rem;
+}
+
+.section-m1{
+    margin: 4rem 0;
+}
+
+button.normal{
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 1.5rem 3rem;
+    color: #000;
+    background-color: #fff;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: all 0.2s ease;
+    border-radius: 1px;
+}
